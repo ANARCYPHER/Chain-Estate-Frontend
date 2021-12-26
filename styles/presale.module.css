@@ -1,12 +1,12 @@
 .mainGrid {
-    margin-top: 5%;
-    margin-bottom: 1%;
-    min-height: 100vh;
+    margin-top: 5% !important;
+    margin-bottom: 1% !important;
+    min-height: 100vh !important;
 }
 
 .header {
-    text-align: center;
-    margin-bottom: 1%;
+    text-align: center !important;
+    margin-bottom: 1% !important;
 }
 
 .darkHeader {
@@ -18,13 +18,13 @@
 }
 
 .comingSoonText {
-    margin-top: -10%;
-    text-align: center;
+    margin-top: -10% !important;
+    text-align: center !important;
 }
 
 .launchText {
-    text-align: center;
-    margin-top: -20%;
+    text-align: center !important;
+    margin-top: -20% !important;
 }
 
 @media (max-width: 900px) {

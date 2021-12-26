@@ -18,23 +18,23 @@
 }
 
 .introTextTypographyDark {
-  text-shadow: 2px 2px 75px #0a0af0;
+  text-shadow: 2px 2px 75px #0a0af0 !important;
 }
 
 .introTextTypographyLight {
-  text-shadow: 3px 3px 35px #70c1ff;
+  text-shadow: 3px 3px 35px #70c1ff !important;
 }
 
 .boldTextDark {
-  color: #0a0af0;
+  color: #0a0af0 !important;
 }
 
 .boldTextLight {
-  color: #70c1ff;
+  color: #70c1ff !important;
 }
 
 .housePicContainer {
-  padding-right: 10%;
+  padding-right: 10% !important;
 }
 
 .housePicDark {
@@ -51,14 +51,14 @@
 }
 
 .processHeader {
-  margin-bottom: 5%;
+  margin-bottom: 5% !important;
 }
 
 .customCard {
-  border-radius: 7%;
-  height: 350px;
-  display: flex;
-  align-items: center;
+  border-radius: 7% !important;
+  height: 350px !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
 .customCardDark {
@@ -81,21 +81,21 @@
 .avatarDarkTheme {
   background-color: #0a0af0 !important;
   border: 1px solid #0a0af0 !important;
-  color: white;
+  color: white !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  margin-top: 2%;
-  margin-bottom: 8%;
+  margin-top: 2% !important;
+  margin-bottom: 8% !important;
 }
 
 .avatarLightTheme {
   background-color: #70c1ff !important;
   border: 1px solid #70c1ff !important;
-  color: white;
+  color: white !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  margin-top: 2%;
-  margin-bottom: 8%;
+  margin-top: 2% !important;
+  margin-bottom: 8% !important;
 }
 
 .processArrow {
@@ -113,7 +113,7 @@
 }
 
 .feeContentGrid {
-  margin-bottom: 8%;
+  margin-bottom: 8% !important;
 }
 
 .transactionFeesGrid {
@@ -128,11 +128,11 @@
 }
 
 .tokenDistGrid {
-  margin-top: 10%;
+  margin-top: 10% !important;
 }
 
 .tokenDistHeader {
-  z-index: 1000;
+  z-index: 1000 !important;
   margin-bottom: -12% !important;
 }
 

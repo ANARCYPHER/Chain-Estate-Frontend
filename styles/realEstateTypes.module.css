@@ -17,26 +17,26 @@
 }
 
 .prosConsHeader {
-    margin-bottom: 5%;
+    margin-bottom: 5% !important;
 }
 
 .proConIcon {
-    margin-right: 3%;
+    margin-right: 3% !important;
 }
 
 .cashFlowHeader {
-    margin-top: 5%;
-    text-align: center;
+    margin-top: 5% !important;
+    text-align: center !important;
 }
 
 .cashFlowText {
-    margin-top: 2%;
-    text-align: center;
+    margin-top: 2% !important;
+    text-align: center !important;
 }
 
 .picContainer {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
 }
 
 @media (max-width: 1050px) {
