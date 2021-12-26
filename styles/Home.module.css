@@ -46,7 +46,7 @@
 }
 
 .processGrid {
-  margin-top: 10%;
+  margin-top: 10% !important;
   text-align: center;
 }
 
@@ -62,11 +62,11 @@
 }
 
 .customCardDark {
-  background-color: #1d263b;
+  background-color: #1d263b !important;
 }
 
 .customCardLight {
-  background-color: #eaeef3;
+  background-color: #eaeef3 !important;
 }
 
 .cardBtn {
@@ -79,8 +79,8 @@
 }
 
 .avatarDarkTheme {
-  background-color: #0a0af0;
-  border: 1px solid #0a0af0;
+  background-color: #0a0af0 !important;
+  border: 1px solid #0a0af0 !important;
   color: white;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -89,8 +89,8 @@
 }
 
 .avatarLightTheme {
-  background-color: #70c1ff;
-  border: 1px solid #70c1ff;
+  background-color: #70c1ff !important;
+  border: 1px solid #70c1ff !important;
   color: white;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -117,7 +117,7 @@
 }
 
 .transactionFeesGrid {
-  margin-top: 10%;
+  margin-top: 10% !important;
   text-align: center !important;
 }
 
