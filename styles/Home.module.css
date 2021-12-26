@@ -1,0 +1,457 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.introGrid {
+  margin-top: 2%;
+}
+
+.introText {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.introTextTypographyDark {
+  text-shadow: 2px 2px 75px #0a0af0;
+}
+
+.introTextTypographyLight {
+  text-shadow: 3px 3px 35px #70c1ff;
+}
+
+.boldTextDark {
+  color: #0a0af0;
+}
+
+.boldTextLight {
+  color: #70c1ff;
+}
+
+.housePicContainer {
+  padding-right: 10%;
+}
+
+.housePicDark {
+  background: radial-gradient(#0a0af0, rgba(33, 37, 41, 0.5) 75%, rgba(33, 37, 41, 0) 100%) !important;
+}
+
+.housePicLight {
+  background: radial-gradient(#70c1ff, rgba(219, 241, 255, 0.5) 70%, rgba(219, 241, 255, 0.1) 100%) !important;
+}
+
+.processGrid {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.processHeader {
+  margin-bottom: 5%;
+}
+
+.customCard {
+  border-radius: 7%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.customCardDark {
+  background-color: #1d263b;
+}
+
+.customCardLight {
+  background-color: #eaeef3;
+}
+
+.cardBtn {
+  margin: auto !important;
+}
+
+.customCardGrid {
+  flex-basis: 30% !important;
+  max-width: 30% !important;
+}
+
+.avatarDarkTheme {
+  background-color: #0a0af0;
+  border: 1px solid #0a0af0;
+  color: white;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 2%;
+  margin-bottom: 8%;
+}
+
+.avatarLightTheme {
+  background-color: #70c1ff;
+  border: 1px solid #70c1ff;
+  color: white;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 2%;
+  margin-bottom: 8%;
+}
+
+.processArrow {
+  flex-basis: 5% !important;
+  max-width: 5% !important;
+  display: none !important;
+}
+
+.largeBtn {
+  font-size: 18px;
+  width: 100% !important;
+  border-radius: 10px !important;
+  padding-top: 10% !important;
+  padding-bottom: 9% !important;
+}
+
+.feeContentGrid {
+  margin-bottom: 8%;
+}
+
+.transactionFeesGrid {
+  margin-top: 10%;
+  text-align: center !important;
+}
+
+.customCardGridFee {
+  flex-basis: 30% !important;
+  max-width: 30% !important;
+  /*margin-left: 0px !important;*/
+}
+
+.tokenDistGrid {
+  margin-top: 10%;
+}
+
+.tokenDistHeader {
+  z-index: 1000;
+  margin-bottom: -12% !important;
+}
+
+.whyChainEstateGrid {
+  /*margin-left: 0px !important;*/
+  margin-top: 3% !important;
+}
+
+.whyChainEstateTextGrid {
+  margin-top: 4% !important;
+  margin-bottom: 5% !important;
+  font-size: 17px !important;
+}
+
+.whyChainEstateText {
+  margin-top: 3% !important;
+}
+
+.roadmapHeader {
+  margin-top: 4% !important;
+  margin-bottom: 4% !important;
+}
+
+.realEstateTypesGrid {
+  margin-left: -16px !important;
+  margin-top: 6% !important;
+  margin-bottom: 8% !important;
+}
+
+.realEstateTypesHeader {
+  margin-bottom: 5% !important;
+}
+
+.realEstateTypeGrid {
+  padding-left: 0px !important;
+}
+
+.realEstateBtn {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 5% !important;
+}
+
+.btnDark:hover {
+  color: black !important;
+}
+
+.btnLight:hover {
+  color: white !important;
+}
+
+.verticalTimelineDiv {
+  text-align: left !important;
+}
+
+@media (max-width: 970px) {
+  .introText {
+    max-width: 100% !important;
+    flex: 100% !important;
+    margin-bottom: 10% !important;
+    text-align: center !important;
+  }
+  
+  .housePicContainer {
+    max-width: 100% !important;
+    flex: 100% !important;
+    padding-right: 0% !important;
+  }
+
+  .headerText {
+    font-size: 2rem !important;
+  }
+}
+
+@media (max-width: 1350px) {
+  .customCardGrid {
+    max-width: 45% !important;
+    flex: 45% !important;
+  }
+  .customCardGridFee {
+    max-width: 45% !important;
+    flex: 45% !important;
+  }
+
+  .realEstateTypeGrid {
+    max-width: 45% !important;
+    flex: 45% !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+  }
+
+  .customCard {
+    height: 400px !important;
+  }
+
+  .feeHeader {
+    margin-top: 10% !important;
+    margin-bottom: 5% !important; 
+    /*margin-left: 0px !important;*/
+  }
+  .tokenDistHeader {
+    margin-top: 10% !important;
+    margin-bottom: 2% !important; 
+    /*margin-left: 0px !important;*/
+  }
+  .roadmapHeader {
+    margin-top: 10% !important;
+    /*margin-left: 0px !important;*/
+  }
+}
+
+@media (max-width: 1200px) {
+  .largeBtnGrid {
+    max-width: 25% !important;
+    flex: 25% !important;
+  }
+
+  .largeBtn {
+    width: 75% !important;
+    padding-top: 6% !important;
+    padding-bottom: 5% !important;
+  }
+}
+
+
+@media (max-width: 1050px) {
+  .largeBtnGrid {
+    max-width: 33% !important;
+    flex: 33% !important;
+  }
+
+  .largeBtn {
+    width: 65% !important;
+    padding-top: 6% !important;
+    padding-bottom: 5% !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .largeBtnGrid {
+    max-width: 40% !important;
+    flex: 40% !important;
+  }
+
+  .largeBtn {
+    width: 65% !important;
+    padding-top: 6% !important;
+    padding-bottom: 5% !important;
+  }
+
+  .tokenDistPieGrid {
+    max-width: 95% !important;
+    flex: 95% !important;
+    /*margin-left: 0px !important;*/
+  }
+}
+
+@media (max-width: 750px) {
+  .largeBtnGrid {
+    max-width: 50% !important;
+    flex: 50% !important;
+  }
+
+  .largeBtn {
+    width: 80% !important;
+    padding-top: 6% !important;
+    padding-bottom: 5% !important;
+  }
+
+  .customCardGrid {
+    max-width: 92% !important;
+    flex: 92% !important;
+  }
+
+  .realEstateTypeGrid {
+    max-width: 92% !important;
+    flex: 92% !important;
+    margin-top: 5% !important;
+    margin-bottom: 10% !important;
+  }
+
+  .customCardGridFee {
+    max-width: 92% !important;
+    flex: 92% !important;
+  }
+
+  .customCard {
+    height: 400px !important;
+  }
+
+  .whyChainEstateTextGrid {
+    max-width: 100% !important;
+    flex-basis: 100% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .largeBtnGrid {
+    max-width: 50% !important;
+    flex: 50% !important;
+  }
+
+  .largeBtn {
+    width: 100% !important;
+    padding-top: 6% !important;
+    padding-bottom: 5% !important;
+  }
+
+  .tokenDistHeader {
+    margin-bottom: 8% !important;
+  }
+
+  .tokenDistPieGrid {
+    max-width: 100% !important;
+    flex: 100% !important;
+  }
+  
+  .customCard {
+    height: 450px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

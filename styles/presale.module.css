@@ -1,0 +1,64 @@
+.mainGrid {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.darkHeader {
+    border-bottom: 5px solid #0a0af0;
+}
+
+.lightHeader {
+    border-bottom: 5px solid #70c1ff;
+}
+
+.comingSoonText {
+    margin-top: -10%;
+    text-align: center;
+}
+
+.launchText {
+    text-align: center;
+    margin-top: -20%;
+}
+
+@media (max-width: 900px) {
+    .spacingGrid {
+        max-width: 25% !important;
+        flex: 25% !important;
+    }
+
+    .headerGrid {
+        max-width: 50% !important;
+        flex: 50% !important;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .spacingGrid {
+        max-width: 15% !important;
+        flex: 15% !important;
+    }
+
+    .headerGrid {
+        max-width: 70% !important;
+        flex: 70% !important;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 650px) {
+    .header {
+        margin-top: 8% !important;
+    }
+
+    .comingSoonText {
+        margin-top: -15% !important;
+    }
+}

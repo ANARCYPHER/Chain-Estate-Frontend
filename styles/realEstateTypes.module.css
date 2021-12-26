@@ -1,0 +1,72 @@
+.mainGrid {
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 15%;
+}
+
+.darkHeader {
+    border-bottom: 5px solid #0a0af0;
+}
+
+.lightHeader {
+    border-bottom: 5px solid #70c1ff;
+}
+
+.prosConsHeader {
+    margin-bottom: 5%;
+}
+
+.proConIcon {
+    margin-right: 3%;
+}
+
+.cashFlowHeader {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.cashFlowText {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.picContainer {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media (max-width: 1050px) {
+    .picContainer {
+        max-width: 60% !important;
+        flex: 60% !important;
+    }
+
+    .prosConsContainer {
+        max-width: 80% !important;
+        flex: 80% !important;
+        text-align: center !important;
+        margin-top: 5% !important;
+    }
+
+    .spacingGrid {
+        max-width: 15% !important;
+        flex: 15% !important;
+    }
+
+    .headerGrid {
+        max-width: 70% !important;
+        flex: 70% !important;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .picContainer {
+        max-width: 80% !important;
+        flex: 80% !important;
+    }
+}

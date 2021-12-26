@@ -1,0 +1,107 @@
+.navbarDarkCustom {
+    color: rgba(255,255,255,1) !important;
+  }
+  
+  .navbarLightCustom {
+    color: rgba(0,0,0,1) !important;
+  }
+
+.darkModeIcon {
+    color: #0a0af0;
+}
+
+.lightModeIcon {
+    color: #70c1ff;
+}
+
+.navBrandText {
+    margin-left: 15% !important;
+}
+
+.socialIcons {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.socialIcon {
+    margin-left: 15% !important;
+}
+
+.navBarText {
+    font-size: 2px !important;
+}
+
+@media (max-width: 1350px) and (min-width: 1251px) {
+    .navBrandText {
+        font-size: 18px !important;
+    }
+
+    .navText {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 1250px) and (min-width: 1151px) {
+    .navBrandText {
+        font-size: 16px !important;
+    }
+
+    .navText {
+        margin-top: 5px !important;
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 1150px) and (min-width: 992px) {
+    .navBrandText {
+        font-size: 14px !important;
+    }
+
+    .navText {
+        font-size: 12px !important;
+        margin-top: 5px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .navBar {
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .navBarItems {
+        margin-left: -15%;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    
+    .navBarBrand {
+        padding-left: 10%;
+    }
+
+    .navPadding {
+        padding-right: 1rem !important;
+        padding-left: 0.5rem !important;
+    }
+
+    .changeThemeDiv {
+        margin-top: 0.25rem !important;
+        margin-left: 4rem !important;
+    }
+  }
+
+@media (max-width: 991px) {
+    .navGridDark {
+        background-color: rgba(33, 37, 41, 1) !important;
+    }
+    .socialIcons {
+        display: flex !important;
+        align-items: center !important;
+    }
+    .socialIcon {
+        margin-top: 5% !important;
+        margin-left: 1% !important;
+    }
+    .socialIconLast {
+        margin-left: 8% !important;
+    }
+  }

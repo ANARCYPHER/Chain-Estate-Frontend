@@ -1,0 +1,87 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.mainPaper {
+  border-radius: 0px !important;
+}
+
+.bg-custom-dark {
+  background-color: none !important;
+}
+
+.bg-custom-light {
+  background-color: #dbf1ff !important;
+}
+
+.realEstateTypesHeaderWrapper {
+  padding-left: 0px !important;
+}
+
+.vertical-timeline-element-right span.vertical-timeline-element-date {
+  left: 125% !important;
+}
+
+.timeline-dark-theme span.vertical-timeline-element-date {
+  color: white !important;
+}
+
+.timeline-light-theme span.vertical-timeline-element-date {
+  color: black !important;
+}
+
+.timeline-dark-theme::before {
+  background: white !important;
+}
+
+.timeline-light-theme::before {
+  /*background: #06277d !important;*/
+  background: #48494f !important;
+}
+
+.timeline-dark-theme .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #fff !important;
+}
+
+.timeline-light-theme .vertical-timeline-element-icon {
+  /*box-shadow: 0 0 0 4px #06277d !important;*/
+  box-shadow: 0 0 0 4px #48494f !important;
+}
+
+@media (max-width: 1169px) {
+  
+  .vertical-timeline-element-date {
+    padding-top: 3% !important;
+  }
+  
+
+  .vertical-timeline-element-right span.vertical-timeline-element-date {
+    left: 85% !important;
+  }
+}
+
+@media (max-width: 750px) {
+  .vertical-timeline-element-date {
+    padding-top: 8% !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .vertical-timeline-element-date {
+    padding-top: 15% !important;
+  }
+}
