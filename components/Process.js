@@ -75,7 +75,7 @@ export default function Process(props) {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button href="https://metamask.io/download.html" target="_blank" size="small" variant="contained" color="secondary" 
+                <Button href="https://metamask.io/download.html" target="_blank" rel="noreferrer" size="small" variant="contained" color="secondary" 
                   className={clsx(styles.cardBtn, props.useDarkTheme ? styles.btnDark : styles.btnLight)}>
                   Download Here
                 </Button>
@@ -102,7 +102,7 @@ export default function Process(props) {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button href="https://www.binance.us/en/buy-sell-crypto/BNB" target="_blank" size="small" variant="contained" color="secondary"
+                <Button href="https://www.binance.us/en/buy-sell-crypto/BNB" target="_blank" rel="noreferrer" size="small" variant="contained" color="secondary"
                   className={clsx(styles.cardBtn, props.useDarkTheme ? styles.btnDark : styles.btnLight)}>
                   Purchase on Binance.us
                 </Button>
@@ -129,7 +129,7 @@ export default function Process(props) {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button href="https://pancakeswap.finance/" target="_blank" size="small" variant="contained" color="secondary"
+                <Button href="https://pancakeswap.finance/" target="_blank" rel="noreferrer" size="small" variant="contained" color="secondary"
                   className={clsx(styles.cardBtn, props.useDarkTheme ? styles.btnDark : styles.btnLight)}>
                   Visit PancakeSwap
                 </Button>
@@ -149,11 +149,11 @@ export default function Process(props) {
                 </Typography>
                 <Typography variant="p" component="div" className="mt-4">
                   Chain Estate will have monthly air drops starting mid 2022 that reward
-                  you based on the number of tokens you have and how long you've had them for.
+                  you based on the number of tokens you have and how long you&apos;ve had them for.
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button href="https://chain-estate.gitbook.io/chain-estate-whitepaper/chain-estate/what-is-chain-estate/air-drops" target="_blank" size="small" variant="contained" color="secondary" 
+                <Button href="https://chain-estate.gitbook.io/chain-estate-whitepaper/chain-estate/what-is-chain-estate/air-drops" target="_blank" rel="noreferrer" size="small" variant="contained" color="secondary" 
                   className={clsx(styles.cardBtn, props.useDarkTheme ? styles.btnDark : styles.btnLight)}>
                   View Air Drops page on Whitepaper
                 </Button>
@@ -180,7 +180,7 @@ export default function Process(props) {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button href="https://chain-estate.gitbook.io/chain-estate-whitepaper/chain-estate/nfts" target="_blank" size="small" variant="contained" color="secondary" 
+                <Button href="https://chain-estate.gitbook.io/chain-estate-whitepaper/chain-estate/nfts" target="_blank" rel="noreferrer" size="small" variant="contained" color="secondary" 
                   className={clsx(styles.cardBtn, props.useDarkTheme ? styles.btnDark : styles.btnLight)}>
                   View NFT Page on Whitepaper
                 </Button>
@@ -207,7 +207,7 @@ export default function Process(props) {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button href="https://chain-estate.gitbook.io/chain-estate-whitepaper/chain-estate/real-estate" target="_blank" size="small" variant="contained" color="secondary"
+                <Button href="https://chain-estate.gitbook.io/chain-estate-whitepaper/chain-estate/real-estate" target="_blank" rel="noreferrer" size="small" variant="contained" color="secondary"
                   className={clsx(styles.cardBtn, props.useDarkTheme ? styles.btnDark : styles.btnLight)}>
                   Visit Real Estate Page on Whitepaper
                 </Button>
@@ -216,13 +216,13 @@ export default function Process(props) {
           </Card>
         </Grid>
         <Grid item xs={2} className={clsx(styles.largeBtnGrid, "mt-4")}>
-          <Button href="https://chain-estate.gitbook.io/chain-estate-whitepaper/" target="_blank" id="learnMoreBtn" ref={learnMoreBtnRef} variant="contained" 
+          <Button href="https://chain-estate.gitbook.io/chain-estate-whitepaper/" target="_blank" rel="noreferrer" id="learnMoreBtn" ref={learnMoreBtnRef} variant="contained" 
             className={clsx(styles.largeBtn, props.useDarkTheme ? styles.btnLight : styles.btnDark)}>
             Learn More
           </Button>
         </Grid>
         <Grid item xs={2} className={clsx(styles.largeBtnGrid, "mt-4")}>
-          <Button href="/presale" target="_blank" id="getStartedBtn" ref={getStartedBtnRef} variant="contained" color="secondary" 
+          <Button href="/presale" target="_blank" rel="noreferrer" id="getStartedBtn" ref={getStartedBtnRef} variant="contained" color="secondary" 
             className={clsx(styles.largeBtn, props.useDarkTheme ? styles.btnDark : styles.btnLight)}>
             Get Started
           </Button>

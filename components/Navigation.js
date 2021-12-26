@@ -93,12 +93,12 @@ export default function Navigation({useDarkTheme, setUseDarkTheme}) {
                         <IconContext.Provider value={{ size:"1.7rem", color: useDarkTheme ? "#0a0af0" : "#70c1ff" }} className={styles.socialIcons}>
                             <div className={styles.socialIcons}>
                                 <div className={styles.socialIcon}>
-                                    <a href="https://discord.gg/ahHu45hEvv" target="_blank">
+                                    <a href="https://discord.gg/ahHu45hEvv" target="_blank" rel="noreferrer">
                                         <FaDiscord />
                                     </a>
                                 </div>
                                 <div className={clsx(styles.socialIcon, styles.socialIconLast)}>
-                                    <a href="https://twitter.com/ChainEstate1" target="_blank">
+                                    <a href="https://twitter.com/ChainEstate1" target="_blank" rel="noreferrer">
                                         <FaTwitter />
                                     </a>
                                 </div>
